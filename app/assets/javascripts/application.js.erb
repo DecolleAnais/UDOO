@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function turn_gears(gears_id) {
+    gears = document.getElementById(gears_id);
+    if(gears_id == "gears_Surveillance") {
+        if(gears.src.indexOf("<%= asset_path('gears_Surveillance.gif') %>") !== -1)
+            gears.src = "<%= asset_path('gears_Surveillance_back.gif') %>";
+        else {
+            gears.src = "<%= asset_path('gears_Surveillance.gif') %>";
+        }
+    }else if(gears_id == "gears_Settings")
+        gears.src = "";
+}

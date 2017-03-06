@@ -3,8 +3,8 @@
 
   <nav class="header-nav-bar">
     <ul>
-      <li><%= image_tag("gears_Surveillance.png", class:"gears") %></li>
-      <li><%= image_tag("gears_Settings.png", class:"gears") %></li>
+      <li><%= image_tag("gears_Surveillance.png", class:"gears", id:"gears_Surveillance", onclick:"turn_gears(this.id)") %></li>
+      <li><%= image_tag("gears_Settings.png", class:"gears", id:"gears_Settings", onclick:"turn_gears(this.id)") %></li>
     </ul>
   </nav>
 </header>
