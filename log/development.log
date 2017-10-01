@@ -41656,3 +41656,319 @@ puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 21:56:43 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 582ms (Views: 573.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 21:56:53 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 21:56:56 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 112ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 21:57:01 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:24:40 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 456ms (Views: 447.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:24:45 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 112ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:24:48 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (4.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:24:50 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered dashboard/home.html.erb within layouts/application (2.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 122ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:25:38 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (307.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 442ms (Views: 427.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:25:40 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/home.html.erb within layouts/application (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:25:42 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:26:33 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (241.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 336ms (Views: 328.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:26:37 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (1.0ms)
+  Rendered dashboard/home.html.erb within layouts/application (3.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 108ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:26:40 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 88ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:27:48 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (231.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 323ms (Views: 314.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:27:50 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.9ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:27:55 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 91ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:28:19 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (301.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 417ms (Views: 408.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:28:26 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered dashboard/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:29:06 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 415ms (Views: 401.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:29:10 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:29:25 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 425ms (Views: 410.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:29:27 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:29:33 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (6.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:29:34 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:29:48 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:30:17 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 429ms (Views: 414.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:30:22 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/home.html.erb within layouts/application (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:30:24 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (6.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:30:26 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered dashboard/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:30:28 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:31:12 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 380ms (Views: 370.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:31:14 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 22:31:15 +0200
+Processing by UserController#login as HTML
+  Rendering user/login.html.erb within layouts/application
+  Rendered user/login.html.erb within layouts/application (5.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/home" for 127.0.0.1 at 2017-10-01 22:31:17 +0200
+Processing by DashboardController#home as HTML
+  Rendering dashboard/home.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/home.html.erb within layouts/application (1.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/gallery" for 127.0.0.1 at 2017-10-01 22:33:00 +0200
+Processing by DashboardController#gallery as HTML
+  Rendering dashboard/gallery.html.erb within layouts/application
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered dashboard/gallery.html.erb within layouts/application (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 359ms (Views: 345.0ms | ActiveRecord: 0.0ms)
+
+
