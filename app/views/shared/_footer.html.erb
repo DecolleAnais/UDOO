@@ -1,3 +1,37 @@
 <footer>
-    <%= image_tag "footer.jpg", class:"footer" %>
+  <!--Footer-part-->
+
+  <div class="row-fluid">
+    <div id="footer" class="span12"> 2013 &copy; Template Matrix Admin. By <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+    <div id="footer" class="span12">Cat Logo Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </div>
+
+  <!--end-Footer-part-->
+
+
+
+  <script type="text/javascript">
+      // This function is called from the pop-up menus to transfer to
+      // a different page. Ignore if the value returned is a null string:
+      function goPage (newURL) {
+
+          // if url is empty, skip the menu dividers and reset the menu selection to default
+          if (newURL != "") {
+
+              // if url is "-", it is this page -- reset the menu:
+              if (newURL == "-" ) {
+                  resetMenu();
+              }
+              // else, send page to designated URL
+              else {
+                  document.location.href = newURL;
+              }
+          }
+      }
+
+      // resets the menu selection upon entry to this page:
+      function resetMenu() {
+          document.gomenu.selector.selectedIndex = 2;
+      }
+  </script>
 </footer>

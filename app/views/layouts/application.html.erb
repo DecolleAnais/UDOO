@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UDOO</title>
+    <title>UDOO Bot</title>
     <%= csrf_meta_tags %>
     <!-- to use css responsive with phones -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <!-- to use font-awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <%= stylesheet_link_tag 'font-awesome', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'jquery.easy-pie-chart', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'jquery.gritter', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'bootstrap.min', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'bootstrap-responsive.min', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'fullcalendar', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'matrix-style', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'matrix-media', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+
+    <%= javascript_include_tag 'jquery.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.dataTables.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.easy-pie-chart', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.flot.crosshair', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.flot.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.flot.pie', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.flot.resize.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.flot.stack', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.gritter.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.peity.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.ui.custom', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.uniform', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.validate', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.wizard', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'bootstrap', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'bootstrap-colorpicker', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'bootstrap-datepicker', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'wysihtml5-0.3.0', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'bootstrap-wysihhtml5', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'masked', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.calendar', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.charts', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.dashboard', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.form_common', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.form_validation', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.interface', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.login', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.popover', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.tables', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'matrix.wizard', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'select2.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'excanvas.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'fullcalendar.min', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
-    <%= render "shared/header" %>
     <div class="body">
       <%= yield %>
     </div>
